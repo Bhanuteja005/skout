@@ -1,6 +1,5 @@
 "use client";
 
-//import { Socials } from "@/constants";
 import Image from "next/image";
 
 const Navbar = () => {
@@ -16,13 +15,15 @@ const Navbar = () => {
                         alt="logo"
                         width={40}
                         height={40}
-                        className="cursor-pointer hover:animate-slowspin"
+                        className="cursor-pointer hover:animate-slowspin sm:w-59 sm:h-59"
                     />
 
                     <span className="font-bold ml-[10px] hidden md:block text-gray-300 text-lg">
-            Skout
-          </span>
+                        Skout
+                    </span>
                 </a>
+
+          
 
                 <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
                     <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
@@ -37,8 +38,8 @@ const Navbar = () => {
                         </a>
                     </div>
                 </div>
-               <div className="flex flex-row gap-5">
-                   
+                <div className="flex flex-row gap-5">
+                  
                 </div>
             </div>
         </div>
